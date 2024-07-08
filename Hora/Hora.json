@@ -1,0 +1,11 @@
+
+
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": "Texto normal",
+        "HoraSegundos": "Texto normal"
+    },
+    "send": true
+}

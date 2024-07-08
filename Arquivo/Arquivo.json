@@ -1,0 +1,39 @@
+// Arquivo valido
+{
+    "requester": "adm",
+    "processCode": "WFTodosArquivos",
+    "fields": {
+        "ArquivoNormal": "polvo.jpg",
+        "AssinaturaDigital": "teste.pdf",
+        "AssinaturaEletronica": "teste.pdf",
+        "Arquivo500MB": "postamn.exe"
+    },
+    "send": false
+}
+
+// Importando 500 em 2 mb
+{
+    "requester": "adm",
+    "processCode": "WFTodosArquivos",
+    "fields": {
+        "ArquivoNormal": "postamn.exe",
+        "AssinaturaDigital": "teste.pdf",
+        "AssinaturaEletronica": "teste.pdf",
+        "Arquivo500MB": "postamn.exe"
+    },
+    "send": true
+}
+
+// Importando anexos inexistentes
+{
+    "requester": "adm",
+    "processCode": "WFTodosArquivos",
+    "fields": {
+        "ArquivoNormal": "aaa.exe",
+        "AssinaturaDigital": "aaa.pdf",
+        "AssinaturaEletronica": "aaa.pdf",
+        "Arquivo500MB": "aaa.exe"
+    },
+    "send": true
+}
+

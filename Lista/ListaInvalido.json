@@ -1,0 +1,21 @@
+// Selecionando opção inexistente por id
+{
+    "requester": "adm",
+    "processCode": "WFListaDeOpcoes",
+    "fields": {
+        "ListaNormal": 5,
+        "ListaBotao": 5
+    },
+    "send": true
+}
+
+// Selecionando opção por nome
+{
+    "requester": "adm",
+    "processCode": "WFListaDeOpcoes",
+    "fields": {
+        "ListaNormal": "Maça",
+        "ListaBotao": "Maça"
+    },
+    "send": true
+}

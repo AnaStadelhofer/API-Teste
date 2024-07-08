@@ -1,0 +1,60 @@
+// Booleano check null
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCheck": null
+    },
+    "send": true
+}
+
+// Booleano check true
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCheck": true
+    },
+    "send": true
+}
+
+// Booleano check true 1
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCheck": 1
+    },
+    "send": true
+}
+
+// Booleano COMBO true
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCombo": true
+    },
+    "send": true
+}
+
+// Booleano combo true 1
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCombo": 1
+    },
+    "send": true
+}
+
+// Booleano combo vazio
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCombo": null
+    },
+    "send": true
+}
+

@@ -1,0 +1,32 @@
+// Selecionado id 0
+{
+    "requester": "adm",
+    "processCode": "WFListaDeOpcoes",
+    "fields": {
+        "ListaNormal": 0,
+        "ListaBotao": 0
+    },
+    "send": true
+}
+
+// Selecionando id 1
+{
+    "requester": "adm",
+    "processCode": "WFListaDeOpcoes",
+    "fields": {
+        "ListaNormal": 1,
+        "ListaBotao": 1
+    },
+    "send": true
+}
+
+// Selecionado por null
+{
+    "requester": "adm",
+    "processCode": "WFListaDeOpcoes",
+    "fields": {
+        "ListaNormal": null,
+        "ListaBotao": null
+    },
+    "send": true
+}

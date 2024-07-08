@@ -1,0 +1,61 @@
+
+// Processo desabilitado
+{
+    "requester": "adm",
+    "processCode": "WFDesabilitado",
+    "fields": {
+        "TextoNormal": "Texto normal"
+    },
+    "send": true
+}
+
+// Processo Inexistente
+{
+    "requester": "adm",
+    "processCode": "WFNaoExiste",
+    "fields": {
+        "TextoNormal": "Texto normal"
+    },
+    "send": true
+}
+
+// Processo Não Executavel
+{
+    "requester": "adm",
+    "processCode": "Approval",
+    "fields": {
+        "TextoNormal": "Texto normal"
+    },
+    "send": true
+}
+
+// Usuário sem permissão de iniciar o processo
+{
+    "requester": "adm",
+    "processCode": "WFSemPmerissao",
+    "fields": {
+        "TextoNormal": "Texto normal"
+    },
+    "send": true
+}
+
+// Campo duplicado
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal": "Texto normal",
+        "TextoNormal": "Texto normal 2"
+    },
+    "send": true
+}
+
+// Campo código do campo não existe
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal12314124": "Texto normal"
+    },
+    "send": true
+}

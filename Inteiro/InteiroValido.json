@@ -1,0 +1,93 @@
+// Null em todos os campos
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "InteiroNormal": null,
+        "SemMilhar": null,
+        "Porcentagem": null,
+        "Personalizada": null,
+        "Telefone": null,
+        "CEP": null,
+        "CPF": null,
+        "CNPJ": null
+    },
+    "send": true
+}
+
+// Zero em todos os campos
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "InteiroNormal": "0,000",
+        "SemMilhar": "0,000",
+        "Porcentagem": "0,00%",
+        "Personalizada": "00",
+        "Telefone": "(00) 0000-0000",
+        "CEP": "00000-000",
+        "CPF": "000.000.000-00",
+        "CNPJ": "00.000.000/0000-00"
+    },
+    "send": true
+}
+
+// CPF, CEP E CNPJ COM MÁSCARA BONITA
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "Telefone": "(47) 1234-5678",
+        "CEP": "89058-406",
+        "CPF": "600.815.680-37",
+        "CNPJ": "01.249.206/0001-12"
+    },
+    "send": true
+}
+
+// CPF, CEP E CNPJ SEM MÁSCARA BONITA
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "Telefone": "4712345678",
+        "CEP": "89058406",
+        "CPF": "60081568037",
+        "CNPJ": "01249206000112"
+    },
+    "send": true
+}
+
+// Porcentagem aparecendo
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "Porcentagem": "1,125%"
+    },
+    "send": true
+}
+
+// Inteiro com formatação com virgula
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "InteiroNormal": "1,125",
+        "SemMilhar": "1,125",
+        "Porcentagem": "1,125"
+    },
+    "send": true
+}
+
+// Inteiro sem formatação
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "InteiroNormal": "1125",
+        "SemMilhar": "1125",
+        "Porcentagem": "1125"
+    },
+    "send": true
+}

@@ -1,0 +1,90 @@
+
+// Com formatação
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal": "Texto normal",
+        "TextoContador": "Texto normal",
+        "TextoArea": "Texto Área",
+        "TextoEditorAvancado": "Texto Editor Avançado",
+        "MascaraSenha": 12345,
+        "Personalizada": 12,
+        "Telefone": "+55 (11) 11111-1111",
+        "CEP": "89058-406",
+        "CPF": "600.815.680-37",
+        "CNPJ": "01.249.206/0001-12"
+    },
+    "send": true
+}
+
+// Sem formatação
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal": "Texto normal",
+        "TextoContador": "Texto normal",
+        "TextoArea": "Texto Área",
+        "TextoEditorAvancado": "Texto Editor Avançado",
+        "MascaraSenha": 12345,
+        "Personalizada": 12,
+        "Telefone": "11 11111 1111",
+        "CEP": "89058406",
+        "CPF": "60081568037",
+        "CNPJ": "01249206000112"
+    },
+    "send": true
+}
+
+// Null em todos os campos
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal": null,
+        "TextoContador": null,
+        "TextoArea": null,
+        "TextoEditorAvancado": null,
+        "MascaraSenha": null,
+        "Personalizada": null,
+        "Telefone": null,
+        "CEP": null,
+        "CPF": null,
+        "CNPJ": null
+    },
+    "send": true
+}
+
+// EM branco
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal": "",
+        "TextoContador": "",
+        "TextoArea": "",
+        "TextoEditorAvancado": "",
+        "MascaraSenha": "",
+        "Personalizada": "",
+        "Telefone": "",
+        "CEP": "",
+        "CPF": "",
+        "CNPJ": ""
+    },
+    "send": true
+}
+
+
+// Campo texto normal com caractere especial
+{
+    "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal": "Texto normal !@#$%¨&*()_+:<><:?}{`^",
+        "TextoContador": "Texto normal !@#$%¨&*()_+:<><:?}{`^",
+        "TextoArea": "Texto Área !@#$%¨&*()_+:<><:?}{`^",
+        "TextoEditorAvancado": "Texto Editor Avançado !@#$%¨&*()_+:<><:?}{`^"
+    },
+    "send": true
+}
