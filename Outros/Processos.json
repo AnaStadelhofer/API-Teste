@@ -4,7 +4,7 @@
     "requester": "adm",
     "processCode": "WFDesabilitado",
     "fields": {
-        "TextoNormal": "Texto normal"
+        "Teste": "Texto normal"
     },
     "send": true
 }
@@ -32,9 +32,9 @@
 // Usuário sem permissão de iniciar o processo
 {
     "requester": "adm",
-    "processCode": "WFSemPmerissao",
+    "processCode": "WFSemPermissao",
     "fields": {
-        "TextoNormal": "Texto normal"
+        "Teste": "Texto normal"
     },
     "send": true
 }
@@ -53,6 +53,15 @@
 // Campo código do campo não existe
 {
     "requester": "adm",
+    "processCode": "WFTextoTodos",
+    "fields": {
+        "TextoNormal12314124": "Texto normal"
+    },
+    "send": true
+}
+
+// Campo obrigatório faltando
+{
     "processCode": "WFTextoTodos",
     "fields": {
         "TextoNormal12314124": "Texto normal"
