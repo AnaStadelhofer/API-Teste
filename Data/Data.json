@@ -3,11 +3,11 @@
     "requester": "adm",
     "processCode": "WFData",
     "fields": {
-        "DataNormal": "Texto normal",
-        "DataDdmmaa": "Texto normal",
-        "DataDdmm": "Texto Área",
-        "DataDdmmaaHhmm": "Texto Editor Avançado",
-        "DataDdmmaaHhmmss": 12345
+        "DataNormal": "2022-10-04T03:25:03",
+        "DataDdmmaa": "2022-10-04T03:25:03",
+        "DataDdmm": "2022-10-04T03:25:03",
+        "DataDdmmaaHhmm": "2022-10-04T03:25:03",
+        "DataDdmmaaHhmmss": "2022-10-04T03:25:03"
     },
     "send": true
 }

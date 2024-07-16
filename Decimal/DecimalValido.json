@@ -1,0 +1,118 @@
+// Null em todos os campos
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "DecimalNormal": null,
+        "SemMilhar": null,
+        "Porcentagem": null,
+        "MonetarioPrefixo": null,
+        "MonetarioSufixo": null,
+        "a1CasaDecimal": null,
+        "a3CasaDecimal": null,
+        "a4CasaDecimal": null,
+        "a5CasaDecimal": null,
+        "a6CasaDecimal": null
+    },
+    "send": true
+}
+
+// Campo padrão sem decimal extra
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "DecimalNormal": "1,000.50",
+        "SemMilhar": "1,000.50",
+        "Porcentagem": "1,000.50%",
+        "MonetarioPrefixo": "1,000.50",
+        "MonetarioSufixo": "1,000.50"
+    },
+    "send": true
+}
+
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "DecimalNormal": "1000.50",
+        "SemMilhar": "1000.50",
+        "Porcentagem": "1000.50",
+        "MonetarioPrefixo": "1000.50",
+        "MonetarioSufixo": "1000.50"
+    },
+    "send": true
+}
+
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "DecimalNormal": "1000",
+        "SemMilhar": "1000",
+        "Porcentagem": "1000",
+        "MonetarioPrefixo": "1000",
+        "MonetarioSufixo": "1000"
+    },
+    "send": true
+}
+
+
+// Decimais com casas decimais
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "a1CasaDecimal": "1.0",
+        "a3CasaDecimal": "1.000",
+        "a4CasaDecimal": "1.0000",
+        "a5CasaDecimal": "1.00000",
+        "a6CasaDecimal": "1.000000"
+    },
+    "send": true
+}
+
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "a1CasaDecimal": "1",
+        "a3CasaDecimal": "1",
+        "a4CasaDecimal": "1",
+        "a5CasaDecimal": "1",
+        "a6CasaDecimal": "1"
+    },
+    "send": true
+}
+
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "a1CasaDecimal": "1.5",
+        "a3CasaDecimal": "1.500",
+        "a4CasaDecimal": "1.5000",
+        "a5CasaDecimal": "1.50000",
+        "a6CasaDecimal": "1.500000"
+    },
+    "send": true
+}
+
+// Enviado com valores em branco
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "DecimalNormal": "0.00",
+        "SemMilhar": "0.00",
+        "Porcentagem": "0.00",
+        "MonetarioPrefixo": "0.00",
+        "MonetarioSufixo": "0.00",
+        "a1CasaDecimal": "0.00",
+        "a3CasaDecimal": "0.00",
+        "a4CasaDecimal": "0.00",
+        "a5CasaDecimal": "0.00",
+        "a6CasaDecimal": "0.00"
+    },
+    "send": true
+}

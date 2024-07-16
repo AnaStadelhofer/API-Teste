@@ -1,0 +1,34 @@
+O que deveria dar erro mas funciona
+
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "MonetarioPrefixo": "R$ 150,000.00",
+        "MonetarioSufixo": "150,000.00 R$"
+    },
+    "send": true
+}
+
+{
+    "requester": "adm",
+    "processCode": "WFListaDeOpcoes",
+    "fields": {
+        "ListaNormal": "Maça",
+        "ListaBotao": "Maça"
+    },
+    "send": true
+}
+
+
+
+// Deveria funcionar mais não importa
+
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCheck": 1
+    },
+    "send": true
+}
