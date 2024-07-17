@@ -99,3 +99,14 @@
     "send": true
 }
         
+// Ponto no lugar da virgula
+{
+    "requester": "adm",
+    "processCode": "WFInteiro",
+    "fields": {
+        "InteiroNormal": "1.125",
+        "SemMilhar": "1.125",
+        "Porcentagem": "1.125"
+    },
+    "send": true
+}

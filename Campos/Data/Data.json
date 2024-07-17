@@ -1,0 +1,13 @@
+
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "2024-07-09 10:00:10"
+        // "DataDdmmaa": "Texto normal",
+        // "DataDdmm": "Texto Área",
+        // "DataDdmmaaHhmm": "Texto Editor Avançado",
+        // "DataDdmmaaHhmmss": 12345
+    },
+    "send": true
+}

@@ -4,8 +4,8 @@
     "requester": "adm",
     "processCode": "WFHora",
     "fields": {
-        "HoraNormal": "Texto normal",
-        "HoraSegundos": "Texto normal"
+        "HoraNormal": "10:10:10",
+        "HoraSegundos": "10:10:10"
     },
     "send": true
 }
