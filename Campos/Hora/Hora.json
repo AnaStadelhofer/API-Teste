@@ -4,8 +4,8 @@
     "requester": "adm",
     "processCode": "WFHora",
     "fields": {
-        "HoraNormal": "10:10:10",
-        "HoraSegundos": "10:10:10"
+        "HoraNormal": "2024-02-30T00:00:00",
+        "HoraSegundos": "2024-02-30T00:00:00"
     },
     "send": true
 }

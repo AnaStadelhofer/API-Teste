@@ -1,0 +1,83 @@
+// Data fora do formato de UTC
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "2024-07-09 10:00:10",
+        "DataDdmmaa": "2024-07-09 10:00:10",
+        "DataDdmm": "2024-07-09 10:00:10",
+        "DataDdmmaaHhmm": "2024-07-09 10:00:10",
+        "DataDdmmaaHhmmss": "2024-07-09 10:00:10"
+    },
+    "send": true
+}
+
+// Data com letras
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "ABC",
+        "DataDdmmaa": "ABC",
+        "DataDdmm": "ABC",
+        "DataDdmmaaHhmm": "ABC",
+        "DataDdmmaaHhmmss": "ABC"
+    },
+    "send": true
+}
+
+// Data com dia inexistente
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "2022-10-44T03:25:03",
+        "DataDdmmaa": "2022-10-44T03:25:03",
+        "DataDdmm": "2022-10-44T03:25:03",
+        "DataDdmmaaHhmm": "2022-10-44T03:25:03",
+        "DataDdmmaaHhmmss": "2022-10-44T03:25:03"
+    },
+    "send": true
+}
+
+// Data com zero em tudo
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "0000-00-00T00:00:00",
+        "DataDdmmaa": "0000-00-00T00:00:00",
+        "DataDdmm": "0000-00-00T00:00:00",
+        "DataDdmmaaHhmm": "0000-00-00T00:00:00",
+        "DataDdmmaaHhmmss": "0000-00-00T00:00:00"
+    },
+    "send": true
+}
+
+// Data com máscara errada
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "12345-123-123T123:123:123",
+        "DataDdmmaa": "12345-123-123T123:123:123",
+        "DataDdmm": "12345-123-123T123:123:123",
+        "DataDdmmaaHhmm": "12345-123-123T123:123:123",
+        "DataDdmmaaHhmmss": "12345-123-123T123:123:123"
+    },
+    "send": true
+}
+
+// Data que não existe em Fevereiro
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "2024-02-30T00:00:00",
+        "DataDdmmaa": "2024-02-30T00:00:00",
+        "DataDdmm": "2024-02-30T00:00:00",
+        "DataDdmmaaHhmm": "2024-02-30T00:00:00",
+        "DataDdmmaaHhmmss": "2024-02-30T00:00:00"
+    },
+    "send": true
+}

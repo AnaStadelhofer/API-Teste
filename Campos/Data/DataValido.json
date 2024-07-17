@@ -1,0 +1,44 @@
+// Data null
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": null,
+        "DataDdmmaa": null,
+        "DataDdmm": null,
+        "DataDdmmaaHhmm": null,
+        "DataDdmmaaHhmmss": null
+    },
+    "send": true
+}
+
+// Data em branco
+
+// Data com zero em tudo
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "",
+        "DataDdmmaa": "",
+        "DataDdmm": "",
+        "DataDdmmaaHhmm": "",
+        "DataDdmmaaHhmmss": ""
+    },
+    "send": true
+}
+
+// Data valida
+{
+    "requester": "adm",
+    "processCode": "WFData",
+    "fields": {
+        "DataNormal": "2022-10-04T03:25:03 ",
+        "DataDdmmaa": "2022-10-04T03:25:03",
+        "DataDdmm": "2022-10-04T03:25:03",
+        "DataDdmmaaHhmm": "2022-10-04T03:25:03",
+        "DataDdmmaaHhmmss": "2022-10-04T03:25:03"
+    },
+    "send": true
+}
+
