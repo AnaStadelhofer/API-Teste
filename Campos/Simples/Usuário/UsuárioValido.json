@@ -1,0 +1,12 @@
+// Importando com codigo
+
+{
+    "requester": "adm",
+    "processCode": "WFTodosUsuarios",
+    "fields": {
+        "UsuarioComplementar": "ana.stadelhofer",
+        "UsuarioSimples": "ana.stadelhofer"
+    },
+    "send": true
+}
+

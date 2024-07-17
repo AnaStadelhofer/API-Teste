@@ -68,3 +68,57 @@
     },
     "send": true
 }
+
+
+----
+
+// Avança para o fim da tarefa
+{
+    "requester": "adm",
+    "processCode": "WFOutrosTestes",
+    "fields": {
+        "ListaDeOpcoes": 1
+    },
+    "send": true
+}
+
+// Não avança a tarefa
+{
+    "requester": "adm",
+    "processCode": "WFOutrosTestes",
+    "fields": {
+        "ListaDeOpcoes": 2
+    },
+    "send": false
+}
+
+// Não preencher campo obrigatório
+{
+    "requester": "adm",
+    "processCode": "WFOutrosTestes",
+    "fields": {
+        "ListaDeOpcoes": 3
+    },
+    "send": true
+}
+
+// Múltipla
+{
+    "requester": "adm",
+    "processCode": "WFOutrosTestes",
+    "fields": {
+        "ListaDeOpcoes": 4
+    },
+    "send": true
+}
+
+// Paralela 5
+{
+    "requester": "adm",
+    "processCode": "WFOutrosTestes",
+    "fields": {
+        "ListaDeOpcoes": 5
+    },
+    "send": true
+}
+

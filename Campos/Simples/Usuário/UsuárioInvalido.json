@@ -1,0 +1,55 @@
+
+// Importar com nome
+{
+    "requester": "adm",
+    "processCode": "WFTodosUsuarios",
+    "fields": {
+        "UsuarioComplementar": "Ana Stadelhofer",
+        "UsuarioSimples": "Ana Stadelhofer"
+    },
+    "send": true
+}
+
+// Importar neoid
+{
+    "requester": "adm",
+    "processCode": "WFTodosUsuarios",
+    "fields": {
+        "UsuarioComplementar": 40953,
+        "UsuarioSimples": 40953
+    },
+    "send": true
+}
+
+// Importar com usuário inexistente
+{
+    "requester": "adm",
+    "processCode": "WFTodosUsuarios",
+    "fields": {
+        "UsuarioComplementar": "Ana.Stadelhofer.batata",
+        "UsuarioSimples": "Ana.Stadelhofer.batata"
+    },
+    "send": true
+}
+
+// Importar com null
+{
+    "requester": "adm",
+    "processCode": "WFTodosUsuarios",
+    "fields": {
+        "UsuarioComplementar": null,
+        "UsuarioSimples": null
+    },
+    "send": true
+}
+
+// Importar em branco
+{
+    "requester": "adm",
+    "processCode": "WFTodosUsuarios",
+    "fields": {
+        "UsuarioComplementar": "",
+        "UsuarioSimples": ""
+    },
+    "send": true
+}
