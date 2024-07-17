@@ -1,0 +1,21 @@
+// Com letra
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": "ABC",
+        "HoraSegundos": "ABC"
+    },
+    "send": true
+}
+
+// Estourando a máscara
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": "00:00:001234",
+        "HoraSegundos": "00:00:001234"
+    },
+    "send": true
+}

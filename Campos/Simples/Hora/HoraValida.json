@@ -1,0 +1,43 @@
+// Hora Valida 00
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": "00:00:00",
+        "HoraSegundos": "00:00:00"
+    },
+    "send": true
+}
+
+// Hora Valida 12
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": "12:00:00",
+        "HoraSegundos": "12:00:00"
+    },
+    "send": true
+}
+
+// Hora vazia
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": "",
+        "HoraSegundos": ""
+    },
+    "send": true
+}
+
+// Hora null
+{
+    "requester": "adm",
+    "processCode": "WFHora",
+    "fields": {
+        "HoraNormal": null,
+        "HoraSegundos": null
+    },
+    "send": true
+}
