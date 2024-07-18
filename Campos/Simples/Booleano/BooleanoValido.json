@@ -58,3 +58,44 @@
     "send": true
 }
 
+// Booleano combo com valor em branco
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCombo": ""
+    },
+    "send": true
+}
+
+// Booleano Combo com label
+
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCombo": "Sim"
+    },
+    "send": true
+}
+
+// Booleano check com valor em branco
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCheck": ""
+    },
+    "send": true
+}
+
+// Booleano check com label
+
+{
+    "requester": "adm",
+    "processCode": "WFBooleano",
+    "fields": {
+        "BooleanoCheck": "Sim"
+    },
+    "send": true
+}

@@ -1,0 +1,70 @@
+// LNSN
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "NDLNSN": 
+    
+            {
+                "code": "ana.stadelhofer",
+                "documentEntityInfo_id": "54787"            
+            }
+    
+    },
+    "send": false
+}
+
+// LNSS
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "NDLNSS": 
+            {
+                "code": "ana.stadelhofer",
+                "documentEntityInfo_id": "54787"
+            }
+    },
+    "send": false
+}
+
+// LSSS
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "NDLSSS": 
+        [
+            {
+                "code": "ana.stadelhofer",
+                "documentEntityInfo_id": "54787"            
+            },
+            {
+                "code": "ana.stadelhofer",
+                "documentEntityInfo_id": "54787"            
+            }
+        ]
+    },
+    "send": false
+}
+
+// LSSN
+
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "NDLSSN": 
+        [
+            {
+                "code": "ana.stadelhofer",
+                "documentEntityInfo_id": "54787"
+            },
+            {
+                "code": "ana.stadelhofer",
+                "documentEntityInfo_id": "54787"
+            }
+        ]
+    },
+    "send": false
+}

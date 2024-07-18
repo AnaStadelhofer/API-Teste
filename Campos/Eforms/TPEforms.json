@@ -1,0 +1,70 @@
+// LNSN
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "TPLNSN": 
+    
+            {
+                "code": "codigo",
+                "title": "batata"
+            }
+    
+    },
+    "send": false
+}
+
+// LNSS
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "TPLNSS": 
+            {
+                "code": "codigo",
+                "title": "batata"
+            }
+    },
+    "send": false
+}
+
+// LSSS
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "TPLSSS": 
+        [
+            {
+                "code": "codigo",
+                "title": "batata"
+            },
+            {
+                "code": "codigo",
+                "title": "batata"
+            }
+        ]
+    },
+    "send": false
+}
+
+// LSSN
+
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "TPLSSN": 
+        [
+            {
+                "code": "codigo",
+                "title": "batata"
+            },
+            {
+                "code": "codigo",
+                "title": "batata"
+            }
+        ]
+    },
+    "send": false
+}

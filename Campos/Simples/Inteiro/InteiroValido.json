@@ -22,7 +22,7 @@
     "fields": {
         "InteiroNormal": "0,000",
         "SemMilhar": "0,000",
-        "Porcentagem": "0,00%",
+        "Porcentagem": "0%",
         "Personalizada": "00",
         "Telefone": "(00) 0000-0000",
         "CEP": "00000-000",
