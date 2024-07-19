@@ -1,0 +1,103 @@
+// LNSN
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "NDLNSN": 
+            {
+                "code": "ana.stadelhofer"
+            }
+    
+    },
+    "send": false
+}
+
+// LNSS
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "LNSS": 
+            {
+                "Usuario": "ana.stadelhofer",
+                "Inteiro": "1,234",
+                "Decimal": "1,234.56",
+                "ListaDeOpcoes": 1,
+                "Hrora": null,
+                "Data": "2022-10-10T03:00:00",
+                "Booleano": true,
+                "Arquivo": null,
+                "Texto": "Texto top"
+            }
+    },
+    "send": false
+}
+
+// LSSS
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "LSSS": 
+        [
+            {
+                "Usuario": "ana.stadelhofer",
+                "Inteiro": "1,234",
+                "Decimal": "1,234.56",
+                "ListaDeOpcoes": 1,
+                "Hrora": null,
+                "Data": "2022-10-10T03:00:00",
+                "Booleano": true,
+                "Arquivo": null,
+                "Texto": "Texto top"
+            },
+            {
+                "Usuario": "ana.stadelhofer",
+                "Inteiro": "1,234",
+                "Decimal": "1,234.56",
+                "ListaDeOpcoes": 1,
+                "Hrora": null,
+                "Data": "2022-10-10T03:00:00",
+                "Booleano": true,
+                "Arquivo": null,
+                "Texto": "Texto top"
+            }
+        ]
+    },
+    "send": false
+}
+
+// LSSN
+
+{
+    "requester": "adm",
+    "processCode": "WFEforms",
+    "fields": {
+        "LSSN": 
+        [
+            {
+                "Usuario": "ana.stadelhofer",
+                "Inteiro": "1,234",
+                "Decimal": "1,234.56",
+                "ListaDeOpcoes": 1,
+                "Hrora": null,
+                "Data": "2022-10-10T03:00:00",
+                "Booleano": true,
+                "Arquivo": null,
+                "Texto": "Texto top"
+            },
+            {
+                "Usuario": "ana.stadelhofer",
+                "Inteiro": "1,234",
+                "Decimal": "1,234.56",
+                "ListaDeOpcoes": 1,
+                "Hrora": null,
+                "Data": "2022-10-10T03:00:00",
+                "Booleano": true,
+                "Arquivo": null,
+                "Texto": "Texto top"
+            }
+        ]
+    },
+    "send": false
+}

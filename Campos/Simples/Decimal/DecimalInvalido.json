@@ -119,3 +119,13 @@
     "send": true
 }
 
+
+{
+    "requester": "adm",
+    "processCode": "WFDecimal",
+    "fields": {
+        "MonetarioPrefixo": "R$A 150,000.00",
+        "MonetarioSufixo": "150,000.00 R$A"
+    },
+    "send": true
+}
